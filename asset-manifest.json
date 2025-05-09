@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/myfultzapp/static/css/main.e6c13ad2.css",
-    "main.js": "/myfultzapp/static/js/main.752fb681.js",
+    "main.js": "/myfultzapp/static/js/main.3fa0a5d3.js",
     "static/js/453.f338774f.chunk.js": "/myfultzapp/static/js/453.f338774f.chunk.js",
     "static/media/logo.png": "/myfultzapp/static/media/logo.d67bcba7fd034793d36a.png",
     "index.html": "/myfultzapp/index.html",
     "main.e6c13ad2.css.map": "/myfultzapp/static/css/main.e6c13ad2.css.map",
-    "main.752fb681.js.map": "/myfultzapp/static/js/main.752fb681.js.map",
+    "main.3fa0a5d3.js.map": "/myfultzapp/static/js/main.3fa0a5d3.js.map",
     "453.f338774f.chunk.js.map": "/myfultzapp/static/js/453.f338774f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.752fb681.js"
+    "static/js/main.3fa0a5d3.js"
   ]
 }
