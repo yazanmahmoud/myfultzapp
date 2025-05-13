@@ -13,7 +13,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/myfultzapp'>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
