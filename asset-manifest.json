@@ -1,28 +1,25 @@
 {
   "files": {
-    "main.css": "/myfultzapp/static/css/main.2897852e.css",
-    "main.js": "/myfultzapp/static/js/main.18cd5a2a.js",
-    "static/js/453.f338774f.chunk.js": "/myfultzapp/static/js/453.f338774f.chunk.js",
-    "static/media/gazebo.png": "/myfultzapp/static/media/gazebo.5355580b34ee19765819.png",
-    "static/media/bgHeader.png": "/myfultzapp/static/media/bgHeader.76973bac55d973e84c70.png",
-    "static/media/map.png": "/myfultzapp/static/media/map.8e7f98f7b3f729351a58.png",
-    "static/media/photoBlacksmith.png": "/myfultzapp/static/media/photoBlacksmith.cfe33305a15948e2da82.png",
-    "static/media/photoHouse.png": "/myfultzapp/static/media/photoHouse.13150e5d98ef0af1cb0a.png",
-    "static/media/photo02.png": "/myfultzapp/static/media/photo02.7157fb44e6bb8acd875e.png",
-    "static/media/photo03.png": "/myfultzapp/static/media/photo03.e94cfc1e8fc35a83d931.png",
-    "static/media/photo01.png": "/myfultzapp/static/media/photo01.d4979c8027f55caaff8c.png",
-    "static/media/logo.png": "/myfultzapp/static/media/logo.d67bcba7fd034793d36a.png",
-    "static/media/bgFooter.png": "/myfultzapp/static/media/bgFooter.51a935e9f0020abaf983.png",
-    "static/media/icon-fax.gif": "/myfultzapp/static/media/icon-fax.becaba36662c255cbcfe.gif",
-    "static/media/navSackville.png": "/myfultzapp/static/media/navSackville.db45466acb0387cbc8b7.png",
-    "static/media/navBrochures.png": "/myfultzapp/static/media/navBrochures.bf6747288bc76fb110b0.png",
-    "index.html": "/myfultzapp/index.html",
-    "main.2897852e.css.map": "/myfultzapp/static/css/main.2897852e.css.map",
-    "main.18cd5a2a.js.map": "/myfultzapp/static/js/main.18cd5a2a.js.map",
-    "453.f338774f.chunk.js.map": "/myfultzapp/static/js/453.f338774f.chunk.js.map"
+    "main.css": "/yazanmahmoud/myfultzapp/static/css/main.e6c13ad2.css",
+    "main.js": "/yazanmahmoud/myfultzapp/static/js/main.5e570577.js",
+    "static/js/453.55b32985.chunk.js": "/yazanmahmoud/myfultzapp/static/js/453.55b32985.chunk.js",
+    "static/media/gazebo.png": "/yazanmahmoud/myfultzapp/static/media/gazebo.5355580b34ee19765819.png",
+    "static/media/map.png": "/yazanmahmoud/myfultzapp/static/media/map.8e7f98f7b3f729351a58.png",
+    "static/media/photoBlacksmith.png": "/yazanmahmoud/myfultzapp/static/media/photoBlacksmith.cfe33305a15948e2da82.png",
+    "static/media/photoHouse.png": "/yazanmahmoud/myfultzapp/static/media/photoHouse.13150e5d98ef0af1cb0a.png",
+    "static/media/photo02.png": "/yazanmahmoud/myfultzapp/static/media/photo02.7157fb44e6bb8acd875e.png",
+    "static/media/photo03.png": "/yazanmahmoud/myfultzapp/static/media/photo03.e94cfc1e8fc35a83d931.png",
+    "static/media/photo01.png": "/yazanmahmoud/myfultzapp/static/media/photo01.d4979c8027f55caaff8c.png",
+    "static/media/logo.png": "/yazanmahmoud/myfultzapp/static/media/logo.d67bcba7fd034793d36a.png",
+    "static/media/bgFooter.png": "/yazanmahmoud/myfultzapp/static/media/bgFooter.51a935e9f0020abaf983.png",
+    "static/media/icon-fax.gif": "/yazanmahmoud/myfultzapp/static/media/icon-fax.becaba36662c255cbcfe.gif",
+    "index.html": "/yazanmahmoud/myfultzapp/index.html",
+    "main.e6c13ad2.css.map": "/yazanmahmoud/myfultzapp/static/css/main.e6c13ad2.css.map",
+    "main.5e570577.js.map": "/yazanmahmoud/myfultzapp/static/js/main.5e570577.js.map",
+    "453.55b32985.chunk.js.map": "/yazanmahmoud/myfultzapp/static/js/453.55b32985.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2897852e.css",
-    "static/js/main.18cd5a2a.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.5e570577.js"
   ]
 }
