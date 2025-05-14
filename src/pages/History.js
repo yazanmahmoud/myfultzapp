@@ -7,6 +7,7 @@ import photo03 from '../images/photo03.png';
 
 const History = () => (
   <Layout>
+    <div id="header"></div>
     <div id="content">
       <div id="left">
         <ul id="nav">
@@ -48,6 +49,7 @@ const History = () => (
         <p><span className="drop">I</span>n 1858, Bennett Fultz, a wheelwright and cabinet maker, purchased the piece of land opposite Twelve Mile House from his cousin William. On the property, he built a 20 by 20 foot house for himself and for his wife, Mary Robinson. As their family grew to eight children, their small house was soon expanded to a full two-storey building with a dining room and summer kitchen. The Fultzes took advantage of their busy intersection by operating a post office from Mary's kitchen window. Herman, one of the Fultz children, became a talented iron worker, operating a successful blacksmith shop across the street. With enterprising Fultzes on each corner of the intersection, there can be no doubt of this family's influence in Sackville's early days.</p>
       </div>
       <div className="clear"></div>
+      <div className="overlay"></div>
     </div>
   </Layout>
 );
