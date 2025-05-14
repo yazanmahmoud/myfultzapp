@@ -16,7 +16,7 @@ function App() {
     <Router basename='/myfultzapp'>
       <Layout>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/brochures" element={<Brochures />} />
           <Route path="/community" element={<Community />} />
