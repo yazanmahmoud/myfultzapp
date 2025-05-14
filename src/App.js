@@ -14,6 +14,7 @@ import './App.css';
 function App() {
   return (
     <Router basename='/myfultzapp'>
+      <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -23,7 +24,8 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/history" element={<History />} />
         </Routes>
-   </Router>
+      </Layout>
+    </Router>
   );
 }
 
