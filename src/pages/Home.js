@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 const Home = () => (
-  <Layout>
+  
     <div id="content">
     <div id="left">
       <ul id="nav">
@@ -96,7 +96,7 @@ const Home = () => (
     </div>
     <div className="clear"></div>
     </div>
-  </Layout>
+  
 );
 
 export default Home;
