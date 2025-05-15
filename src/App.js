@@ -14,7 +14,7 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <Router basename="/myfultzapp">
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
