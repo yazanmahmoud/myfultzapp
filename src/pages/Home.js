@@ -23,7 +23,7 @@ const Home = () => (
         <img
           alt="Front exterior shot of Fultz House Museum"
           className="photo"
-          src="/images/photoHouse.png"
+          src="../images/photoHouse.png"
         />
         <span className="drop">L</span>ocated at the corner of Nova Scotia's most famous intersection,
         Fultz House Museum's collections reflect over 200 years of Sackville history. Constructed in the
