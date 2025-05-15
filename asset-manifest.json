@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/myfultzapp/static/css/main.2897852e.css",
-    "main.js": "/myfultzapp/static/js/main.dedf6e3e.js",
+    "main.js": "/myfultzapp/static/js/main.1da5c577.js",
     "static/js/453.f9a09e38.chunk.js": "/myfultzapp/static/js/453.f9a09e38.chunk.js",
     "static/media/gazebo.png": "/myfultzapp/static/media/gazebo.5355580b34ee19765819.png",
     "static/media/bgHeader.png": "/myfultzapp/static/media/bgHeader.76973bac55d973e84c70.png",
     "static/media/photoBlacksmith.png": "/myfultzapp/static/media/photoBlacksmith.cfe33305a15948e2da82.png",
+    "static/media/photoHouse.png": "/myfultzapp/static/media/photoHouse.13150e5d98ef0af1cb0a.png",
     "static/media/photo02.png": "/myfultzapp/static/media/photo02.7157fb44e6bb8acd875e.png",
     "static/media/photo03.png": "/myfultzapp/static/media/photo03.e94cfc1e8fc35a83d931.png",
     "static/media/photo01.png": "/myfultzapp/static/media/photo01.d4979c8027f55caaff8c.png",
@@ -15,11 +16,11 @@
     "static/media/navBrochures.png": "/myfultzapp/static/media/navBrochures.bf6747288bc76fb110b0.png",
     "index.html": "/myfultzapp/index.html",
     "main.2897852e.css.map": "/myfultzapp/static/css/main.2897852e.css.map",
-    "main.dedf6e3e.js.map": "/myfultzapp/static/js/main.dedf6e3e.js.map",
+    "main.1da5c577.js.map": "/myfultzapp/static/js/main.1da5c577.js.map",
     "453.f9a09e38.chunk.js.map": "/myfultzapp/static/js/453.f9a09e38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2897852e.css",
-    "static/js/main.dedf6e3e.js"
+    "static/js/main.1da5c577.js"
   ]
 }
