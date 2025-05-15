@@ -10,9 +10,11 @@ import Events from './pages/Events';
 import History from './pages/History';
 import Header from './components/Header';
 
+
+
 function App() {
   return (
-    <Router>
+    <Router basename="/myfultzapp">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
