@@ -6,10 +6,10 @@ const Contact = () => (
     <div id="content">
     <div id="left">
       <ul id="nav">
-        <li><a href="/History" className="sackville">Sackville: A Brief History</a></li>
-        <li><a href="/About" className="about">About the Museum</a></li>
-        <li><a href="/Events" className="events">Upcoming Events</a></li>
-        <li><a href="/links" className="Community">Community Links</a></li>
+        <li><a href="/history" className="sackville">Sackville: A Brief History</a></li>
+        <li><a href="/about" className="about">About the Museum</a></li>
+        <li><a href="/events" className="events">Upcoming Events</a></li>
+        <li><a href="/community" className="Community">Community Links</a></li>
       </ul>
     </div>
 

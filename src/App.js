@@ -11,14 +11,7 @@ function App() {
   return (
     <Router>
       
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/brochures">Brochures</Link>
-        <Link to="/community">Community</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/events">Events</Link>
-        <Link to="/history">History</Link>
-      
+   
 
       <main>
         <Routes>
