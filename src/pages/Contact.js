@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/logo.png';
+import PhoneIcon from '../images/icon-phone.gif';
+import FaxIcon from '../images/fax.jpg';
+import EmailIcon from '../images/icon-email.gif';
 
 const Contact = () => {
   return (
     <div id="container">
       <div id="header">
         <a href="http://www.fultzhouse.ca/">
-          <img id="logo" src="../images/logo.png" alt="Fultz House Museum" />
+          <img id="logo" src={logo} alt="Fultz House Museum" />
         </a>
       </div>
 
@@ -30,9 +34,9 @@ const Contact = () => {
             B4C 0E5
           </p>
           <p>
-            <img src="../images/icon-phone.gif" alt="Phone" width="12" height="9" className="icon" /> Telephone: 902-865-3794<br />
-            <img src="../images/icon-fax.gif" alt="Fax" width="14" height="14" className="icon" /> Fax: 902-865-6940<br />
-            <img src="../images/icon-email.gif" alt="Email" width="11" height="8" className="icon" /> Email: <a href="mailto:fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a>
+            <img src={PhoneIcon} alt="Phone" width="12" height="9" className="icon" /> Telephone: 902-865-3794<br />
+            <img src={FaxIcon} alt="Fax" width="14" height="14" className="icon" /> Fax: 902-865-6940<br />
+            <img src={EmailIcon} alt="Email" width="11" height="8" className="icon" /> Email: <a href="mailto:fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a>
           </p>
 
           <h2>Hours of Operation</h2>

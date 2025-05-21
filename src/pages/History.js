@@ -8,6 +8,7 @@ import photo03 from '../images/photo03.png';
 
 const History = () => {
   return (
+    
     <div id="container">
       <div id="header">
         <a href="http://www.fultzhouse.ca/">

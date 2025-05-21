@@ -1,23 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/logo.png';
 
 const Events = () => {
   return (
     <div id="container">
       <div id="header">
         <a href="http://www.fultzhouse.ca/">
-          <img id="logo" src="../images/logo.png" alt="Fultz House Museum" />
+          <img id="logo" src={logo} alt="Fultz House Museum" />
         </a>
       </div>
 
       <div id="content">
         <div id="left">
           <ul id="nav">
-           <li><a className="sackville" href="/history">Sackville: A Brief History</a></li>
-            <li><a className="about" href="/about">About the Museum</a></li>
-            <li><a className="events current" href="/events">Upcoming Events</a></li>
-            <li><a className="links" href="/community">Community Links</a></li>
-            <li><a className="brochures" href="/brochures">Historical Brochures</a></li>
+            <li><Link className="sackville" to="/history">Sackville: A Brief History</Link></li>
+            <li><Link className="about" to="/about">About the Museum</Link></li>
+            <li><Link className="events" to="/events">Upcoming Events</Link></li>
+            <li><Link className="links" to="/community">Community Links</Link></li>
+            <li><Link className="brochures" to="/brochures">Historical Brochures</Link></li>
           </ul>
         </div>
 

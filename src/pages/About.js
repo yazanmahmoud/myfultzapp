@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Layout from '../components/Layout';
 import photoBlacksmith from '../images/photoBlacksmith.png';
+import logo from '../images/logo.png'; 
 
 const About = () => (
-  <Layout>
+  <div id="container">
+    <div id="header">
+      <a href="http://www.fultzhouse.ca/">
+        <img id="logo" src={logo} alt="Fultz House Museum" />
+      </a>
+    </div>
+
     <div id="content">
       <div id="left">
         <ul id="nav">
@@ -44,7 +50,6 @@ const About = () => (
         </p>
 
         <h2>Statement of Purpose</h2>
-
         <p>
           The purpose of the Fultz Corner Restoration Society is to maintain the buildings and grounds
           as a community museum...
@@ -61,9 +66,35 @@ const About = () => (
           <li>Preserving the natural woodlands ...</li>
         </ol>
       </div>
-      <div className="clear"></div>
+
+      <div className="clear" />
     </div>
-  </Layout>
+
+    <footer id="footer">
+      <ul id="navFooter">
+        <li><Link to="/history">Sackville History</Link></li>
+        <li><Link to="/about">About the Museum</Link></li>
+        <li><Link to="/events">Upcoming Events</Link></li>
+        <li><Link to="/community">Community Links</Link></li>
+        <li><Link to="/brochures">Brochures</Link></li>
+        <li><Link to="/contact">Contact Us</Link></li>
+        <li><a href="http://www.fultz-house.ca/">Home</a></li>
+      </ul>
+      <div className="clear" />
+
+      <a href="https://www.facebook.com/FultzHouse/" id="facebook">Follow us on Facebook</a>
+
+      <p id="copyright">
+        © 2024 Fultz Corner Restoration Society
+        <span className="credit">
+          Site designed and developed by <a href="mailto:tywalkland@hotmail.com">Ty Walkland</a>.<br />
+          Managed by Paige Aziz
+        </span>
+      </p>
+    </footer>
+
+    <div className="overlay" />
+  </div>
 );
 
 export default About;

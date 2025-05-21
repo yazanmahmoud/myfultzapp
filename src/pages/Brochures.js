@@ -1,97 +1,134 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import { Link } from 'react-router-dom';
+import logo from '../images/logo.png';
 
 const brochures = [
-  { href: '/brochures/AfternoonTea.pdf', title: 'A History of Afternoon Tea' },
-  { href: '/brochures/Laundry.pdf', title: 'A History of Laundry' },
-  { href: '/brochures/Theater.pdf', title: "A Theater Lover's Delight - The Sackville Drive-in" },
-  { href: '/brochures/Abraham.pdf', title: 'Great Minds of Sackville - Abraham Gesner and George Lawson' },
-  { href: '/brochures/Soap.pdf', title: 'All About Soap & Candle Making' },
-  { href: '/brochures/Captain.pdf', title: 'Captain John Gorham - Hero or Monster?' },
-  { href: '/brochures/Fenerty.pdf', title: 'Charles Fenerty: The Life & Times' },
-  { href: '/brochures/Childhood.pdf', title: 'Childhood Play' },
-  { href: '/brochures/Chocolate.pdf', title: 'Chocolate Chip Trip - A History of Cookies' },
-  { href: '/brochures/Citizens.pdf', title: 'Citizens Who Care: The Stories of Ted B. Blackburn and Gertrude Parker' },
-  { href: '/brochures/Cornwallis.pdf', title: 'Cornwallis - The Controversial Founder of Halifax' },
-  { href: '/brochures/Craftspeople.pdf', title: 'Craftspeople in the Community' },
-  { href: '/brochures/BeaverBank.pdf', title: 'Early Life & Social Developments in Beaver Bank' },
-  { href: '/brochures/Favorite.pdf', title: 'Favorite Things' },
-  { href: '/brochures/Folklore.pdf', title: 'Folklore is...' },
-  { href: '/brochures/SiptoCash.pdf', title: 'From Sip to Cash - The Savvy Bottle Collector' },
-  { href: '/brochures/Galloping.pdf', title: 'Galloping into the Past...The Sackville Downs Story' },
-  { href: '/brochures/Games.pdf', title: 'Games From Long Ago' },
-  { href: '/brochures/Ghost.pdf', title: 'Ghost Stories @ Fultz House' },
-  { href: '/brochures/Ghostly.pdf', title: 'Ghostly Encounters' },
-  { href: '/brochures/GhostlyG.pdf', title: 'Ghostly Going-On' },
-  { href: '/brochures/GhostlyT.pdf', title: 'Ghostly Tales' },
-  { href: '/brochures/HTB.pdf', title: 'Harold T. Barrett - Mr. Beaver Bank' },
-  { href: '/brochures/Heading.pdf', title: 'Heading Down the Rails - A Look at Railway Heritage' },
-  { href: '/brochures/Sackville.pdf', title: 'Historic Sackville: The Early Years' },
-  { href: '/brochures/Outhouses.pdf', title: 'How Outhouses Came To Be' },
-  { href: '/brochures/Leading.pdf', title: 'Leading the Charge...One Step Forward' },
-  { href: '/brochures/Leslie.pdf', title: 'Leslie Thomas & A.J. Smeltzer' },
-  { href: '/brochures/EnglishCooking.pdf', title: 'Out of Sackville Kitchens - English Cooking' },
-  { href: '/brochures/FrenchCooking.pdf', title: 'Out of Sackville Kitchens - French Cooking' },
-  { href: '/brochures/GermanStaples.pdf', title: 'Out of Sackville Kitchens - German Staples' },
-  { href: '/brochures/Prepping.pdf', title: 'Prepping for Food in Old Sackville Kitchens' },
-  { href: '/brochures/Business.pdf', title: "Sackville's Business Heritage" },
-  { href: '/brochures/Destinations.pdf', title: 'Sackville Destinations' },
-  { href: '/brochures/Parties.pdf', title: 'Tea Parties - Endless Possibilities' },
-  { href: '/brochures/Teaching.pdf', title: 'Teaching and Learning in a One & Two Room School House' },
-  { href: '/brochures/Coopering.pdf', title: 'The Art of Coopering' },
-  { href: '/brochures/Cenotaph.pdf', title: 'The Cenotaph at Sackville Heritage Park' },
-  { href: '/brochures/Cure.pdf', title: 'The Cure for What Ails You...Homemade & Natural Remedies' },
-  { href: '/brochures/Extraordinary.pdf', title: 'The Extraordinary Woman of Sackville' },
-  { href: '/brochures/Fultz.pdf', title: 'The Fultz Family in Perspective' },
-  { href: '/brochures/Grove.pdf', title: 'The Grove Finishing School' },
-  { href: '/brochures/Hand-stitched.pdf', title: 'The History of Hand-stitched Creations' },
-  { href: '/brochures/FolkloreHolidays.pdf', title: 'The History and Folklore of Holidays in Nova Scotia' },
-  { href: '/brochures/StJohn.pdf', title: 'The History of St. John the Evangelist Anglican Church' },
-  { href: '/brochures/Stagecoach.pdf', title: 'The History of Stagecoach Travel in Nova Scotia' },
-  { href: '/brochures/Cooper.pdf', title: 'The Life & Tools of a Cooper' },
-  { href: '/brochures/Maroon.pdf', title: 'The Maroon Hill Education Story' },
-  { href: '/brochures/Blacksmith.pdf', title: 'The Old Blacksmith Shop' },
-  { href: '/brochures/Smithy.pdf', title: 'The Old Fashioned Smithy' },
-  { href: '/brochures/Wheelwright.pdf', title: 'The Wheelwright Craft' },
-  { href: '/brochures/Travelling.pdf', title: 'Travelling in the Early Days' },
-  { href: '/brochures/Two.pdf', title: 'Two Good Men: The Lives of Harry R. Hamilton & Burdett Lively' },
-  { href: '/brochures/Useful.pdf', title: "Useful Objects From The Late 1800's" },
-  { href: '/brochures/Christmas.pdf', title: 'Victorian Christmas Traditions' },
-  { href: '/brochures/Village.pdf', title: 'Village Carpentry' },
-  { href: '/brochures/Weather.pdf', title: 'Weather Lore for All Seasons' },
-  { href: '/brochures/Whatnot.pdf', title: 'Whatnots? to Chamber Pots: Everyday Life in the Mid-19th Century' }
+  { file: 'AfternoonTea.pdf', title: 'A History of Afternoon Tea' },
+  { file: 'Laundry.pdf', title: 'A History of Laundry' },
+  { file: 'Theater.pdf', title: "A Theater Lover's Delight - The Sackville Drive-in" },
+  { file: 'Abraham.pdf', title: 'Great Minds of Sackville - Abraham Gesner and George Lawson' },
+  { file: 'Soap.pdf', title: 'All About Soap & Candle Making' },
+  { file: 'Captain.pdf', title: 'Captain John Gorham - Hero or Monster?' },
+  { file: 'Fenerty.pdf', title: 'Charles Fenerty: The Life & Times' },
+  { file: 'Childhood.pdf', title: 'Childhood Play' },
+  { file: 'Chocolate.pdf', title: 'Chocolate Chip Trip - A History of Cookies' },
+  { file: 'Citizens.pdf', title: 'Citizens Who Care: The Stories of Ted B. Blackburn and Gertrude Parker' },
+  { file: 'Cornwallis.pdf', title: 'Cornwallis - The Controversial Founder of Halifax' },
+  { file: 'Craftspeople.pdf', title: 'Craftspeople in the Community' },
+  { file: 'BeaverBank.pdf', title: 'Early Life & Social Developments in Beaver Bank' },
+  { file: 'Favorite.pdf', title: 'Favorite Things' },
+  { file: 'Folklore.pdf', title: 'Folklore is...' },
+  { file: 'SiptoCash.pdf', title: 'From Sip to Cash - The Savvy Bottle Collector' },
+  { file: 'Galloping.pdf', title: 'Galloping into the Past...The Sackville Downs Story' },
+  { file: 'Games.pdf', title: 'Games From Long Ago' },
+  { file: 'Ghost.pdf', title: 'Ghost Stories @ Fultz House' },
+  { file: 'Ghostly.pdf', title: 'Ghostly Encounters' },
+  { file: 'GhostlyG.pdf', title: 'Ghostly Going-On' },
+  { file: 'GhostlyT.pdf', title: 'Ghostly Tales' },
+  { file: 'HTB.pdf', title: 'Harold T. Barrett - Mr. Beaver Bank' },
+  { file: 'Heading.pdf', title: 'Heading Down the Rails - A Look at Railway Heritage' },
+  { file: 'Sackville.pdf', title: 'Historic Sackville: The Early Years' },
+  { file: 'Outhouses.pdf', title: 'How Outhouses Came To Be' },
+  { file: 'Leading.pdf', title: 'Leading the Charge...One Step Forward' },
+  { file: 'Leslie.pdf', title: 'Leslie Thomas & A.J. Smeltzer' },
+  { file: 'EnglishCooking.pdf', title: 'Out of Sackville Kitchens - English Cooking' },
+  { file: 'FrenchCooking.pdf', title: 'Out of Sackville Kitchens - French Cooking' },
+  { file: 'GermanStaples.pdf', title: 'Out of Sackville Kitchens - German Staples' },
+  { file: 'Prepping.pdf', title: 'Prepping for Food in Old Sackville Kitchens' },
+  { file: 'Business.pdf', title: "Sackville's Business Heritage" },
+  { file: 'Destinations.pdf', title: 'Sackville Destinations' },
+  { file: 'Parties.pdf', title: 'Tea Parties - Endless Possibilities' },
+  { file: 'Teaching.pdf', title: 'Teaching and Learning in a One & Two Room School House' },
+  { file: 'Coopering.pdf', title: 'The Art of Coopering' },
+  { file: 'Cenotaph.pdf', title: 'The Cenotaph at Sackville Heritage Park' },
+  { file: 'Cure.pdf', title: 'The Cure for What Ails You...Homemade & Natural Remedies' },
+  { file: 'Extraordinary.pdf', title: 'The Extraordinary Woman of Sackville' },
+  { file: 'Fultz.pdf', title: 'The Fultz Family in Perspective' },
+  { file: 'Grove.pdf', title: 'The Grove Finishing School' },
+  { file: 'Hand-stitched.pdf', title: 'The History of Hand-stitched Creations' },
+  { file: 'FolkloreHolidays.pdf', title: 'The History and Folklore of Holidays in Nova Scotia' },
+  { file: 'StJohn.pdf', title: 'The History of St. John the Evangelist Anglican Church' },
+  { file: 'Stagecoach.pdf', title: 'The History of Stagecoach Travel in Nova Scotia' },
+  { file: 'Cooper.pdf', title: 'The Life & Tools of a Cooper' },
+  { file: 'Maroon.pdf', title: 'The Maroon Hill Education Story' },
+  { file: 'Blacksmith.pdf', title: 'The Old Blacksmith Shop' },
+  { file: 'Smithy.pdf', title: 'The Old Fashioned Smithy' },
+  { file: 'Wheelwright.pdf', title: 'The Wheelwright Craft' },
+  { file: 'Travelling.pdf', title: 'Travelling in the Early Days' },
+  { file: 'Two.pdf', title: 'Two Good Men: The Lives of Harry R. Hamilton & Burdett Lively' },
+  { file: 'Useful.pdf', title: "Useful Objects From The Late 1800's" },
+  { file: 'Christmas.pdf', title: 'Victorian Christmas Traditions' },
+  { file: 'Village.pdf', title: 'Village Carpentry' },
+  { file: 'Weather.pdf', title: 'Weather Lore for All Seasons' },
+  { file: 'Whatnot.pdf', title: 'Whatnots? to Chamber Pots: Everyday Life in the Mid-19th Century' },
 ];
 
-
-const Brochures = () => (
-  <Layout>
-    <div id="content">
-      <div id="left">
-        <ul id="nav">
-          <li><a className="sackville" href="/History">Sackville: A Brief History</a></li>
-          <li><a className="about" href="/About">About the Museum</a></li>
-          <li><a className="events" href="/Events">Upcoming Events</a></li>
-          <li><a className="links" href="/Community">Community Links</a></li>
-          <li><a className="brochures current" href="/Brochures">Historical Brochures</a></li>
-        </ul>
+function Brochures() {
+  return (
+    <div id="container">
+      <div id="header">
+        <a href="http://www.fultzhouse.ca/">
+          <img alt="Fultz House Museum" id="logo" src={logo} />
+        </a>
       </div>
 
-      <div id="right">
-        <h1>Historical Brochures</h1>
-        <table>
-          <tbody>
-            {brochures.map((item, index) => (
-              <tr key={index}>
-                <td><a href={item.href}>{item.title}</a></td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <div id="content">
+        <div id="left">
+          <ul id="nav">
+                    <li><Link className="sackville" to="/history">Sackville: A Brief History</Link></li>
+                    <li><Link className="about" to="/about">About the Museum</Link></li>
+                    <li><Link className="events" to="/events">Upcoming Events</Link></li>
+                    <li><Link className="links current" to="/community">Community Links</Link></li>
+                    <li><Link className="brochures" to="/brochures">Historical Brochures</Link></li>
+                  </ul>
+        </div>
+
+        <div id="right">
+          <h1>Historical Brochures</h1>
+          <table>
+            <tbody>
+              {brochures.map(({ file, title }) => (
+                <tr key={file}>
+                  <td>
+                    <a href={`../brochures/${file}`} target="_blank" rel="noopener noreferrer">
+                      {title}
+                    </a>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <div className="clear"></div>
       </div>
 
-      <div className="clear"></div>
+      <div id="footer">
+          <ul id="navFooter">
+                  <li><Link to="/history">Sackville History</Link></li>
+                  <li><Link to="/about">About the Museum</Link></li>
+                  <li><Link to="/events">Upcoming Events</Link></li>
+                  <li><Link to="/community">Community Links</Link></li>
+                  <li><Link to="/brochures">Brochures</Link></li>
+                  <li><Link to="/contact">Contact Us</Link></li>
+                  <li><a href="http://www.fultz-house.ca/">Home</a></li>
+                </ul>
+        <div className="clear"></div>
+      </div>
+
+      <a href="https://www.facebook.com/FultzHouse/" id="facebook">Find us on Facebook</a>
+
+      <p id="copyright">
+        Copyright © 2016 Fultz Corner Restoration Society{' '}
+        <span className="credit">
+          Site designed and developed by{' '}
+          <a href="mailto:tywalkland@hotmail.com">Ty Walkland</a>.
+        </span>
+      </p>
+
+      <div className="overlay"></div>
     </div>
-  </Layout>
-);
+  );
+}
 
 export default Brochures;
