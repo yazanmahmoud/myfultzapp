@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       
-        <Link to="/">Home</Link>
+        <Link to="/home">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/brochures">Brochures</Link>
         <Link to="/community">Community</Link>
