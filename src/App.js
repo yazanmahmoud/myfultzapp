@@ -1,5 +1,4 @@
-import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Brochures from './pages/Brochures';
@@ -8,13 +7,23 @@ import Contact from './pages/Contact';
 import Events from './pages/Events';
 import History from './pages/History';
 
-
-
-
 function App() {
   return (
     <Router>
+    
+      <nav style={{ padding: '1rem', display: 'flex', gap: '1rem' }}>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/brochures">Brochures</Link>
+        <Link to="/community">Community</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/events">Events</Link>
+        <Link to="/history">History</Link>
+      </nav>
       
+      
+
+     <main> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -24,9 +33,11 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/history" element={<History />} />
       </Routes>
-      
+     </main> 
     </Router>
   );
 }
 
 export default App;
+
+
