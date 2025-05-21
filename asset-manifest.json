@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myfultzapp/static/css/main.2897852e.css",
-    "main.js": "/myfultzapp/static/js/main.d860ffc0.js",
+    "main.js": "/myfultzapp/static/js/main.d300cad6.js",
     "static/js/453.f9a09e38.chunk.js": "/myfultzapp/static/js/453.f9a09e38.chunk.js",
     "static/media/gazebo.png": "/myfultzapp/static/media/gazebo.5355580b34ee19765819.png",
     "static/media/bgHeader.png": "/myfultzapp/static/media/bgHeader.76973bac55d973e84c70.png",
@@ -12,15 +12,16 @@
     "static/media/photo01.png": "/myfultzapp/static/media/photo01.d4979c8027f55caaff8c.png",
     "static/media/logo.png": "/myfultzapp/static/media/logo.d67bcba7fd034793d36a.png",
     "static/media/bgFooter.png": "/myfultzapp/static/media/bgFooter.51a935e9f0020abaf983.png",
+    "static/media/fax.jpg": "/myfultzapp/static/media/fax.ac8e5e07621a1ee95ba6.jpg",
     "static/media/navSackville.png": "/myfultzapp/static/media/navSackville.db45466acb0387cbc8b7.png",
     "static/media/navBrochures.png": "/myfultzapp/static/media/navBrochures.bf6747288bc76fb110b0.png",
     "index.html": "/myfultzapp/index.html",
     "main.2897852e.css.map": "/myfultzapp/static/css/main.2897852e.css.map",
-    "main.d860ffc0.js.map": "/myfultzapp/static/js/main.d860ffc0.js.map",
+    "main.d300cad6.js.map": "/myfultzapp/static/js/main.d300cad6.js.map",
     "453.f9a09e38.chunk.js.map": "/myfultzapp/static/js/453.f9a09e38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2897852e.css",
-    "static/js/main.d860ffc0.js"
+    "static/js/main.d300cad6.js"
   ]
 }
