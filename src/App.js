@@ -10,8 +10,7 @@ import History from './pages/History';
 function App() {
   return (
     <Router>
-    
-      <nav style={{ padding: '1rem', display: 'flex', gap: '1rem' }}>
+      <nav className="navbar">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/brochures">Brochures</Link>
@@ -20,24 +19,20 @@ function App() {
         <Link to="/events">Events</Link>
         <Link to="/history">History</Link>
       </nav>
-      
-      
 
-     <main> 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/brochures" element={<Brochures />} />
-        <Route path="/community" element={<Community />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/history" element={<History />} />
-      </Routes>
-     </main> 
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/brochures" element={<Brochures />} />
+          <Route path="/community" element={<Community />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/history" element={<History />} />
+        </Routes>
+      </main>
     </Router>
   );
 }
 
 export default App;
-
-
