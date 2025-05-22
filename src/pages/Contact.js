@@ -4,6 +4,7 @@ import logo from '../images/logo.png';
 import PhoneIcon from '../images/icon-phone.gif';
 import FaxIcon from '../images/fax.jpg';
 import EmailIcon from '../images/icon-email.gif';
+import map from '../images/map.png'
 
 const Contact = () => {
   return (
@@ -16,16 +17,16 @@ const Contact = () => {
 
       <div id="content">
         <div id="left">
-          <ul id="nav">
-            <li><a className="sackville" href="/history">Sackville: A Brief History</a></li>
-            <li><a className="about" href="/about">About the Museum</a></li>
-            <li><a className="events" href="/events">Upcoming Events</a></li>
-            <li><a className="links" href="/community">Community Links</a></li>
-            <li><a className="brochures" href="/brochures">Historical Brochures</a></li>
-          </ul>
+         <ul id="nav">
+           <li><Link className="sackville" to="/history">Sackville: A Brief History</Link></li>
+           <li><Link className="about" to="/about">About the Museum</Link></li>
+           <li><Link className="events" to="/events">Upcoming Events</Link></li>
+          <li><Link className="links" to="/community">Community Links</Link></li>
+          <li><Link className="brochures" to="/brochures">Historical Brochures</Link></li>
+         </ul>
         </div>
 
-        <div id="right">
+      <div id="right">
           <h1>Contact Us</h1>
           <h2>Fultz House Museum</h2>
           <p>
@@ -44,7 +45,7 @@ const Contact = () => {
 
           <h2>
             <a href="http://maps.google.ca/maps?q=fultz+house" target="_blank" rel="noreferrer">
-              <img src="../images/map.png" alt="Map of Fultz House Museum" id="map" />
+              <img src={map} alt="Map of Fultz House Museum" id="map" />
               Directions
             </a>
           </h2>
@@ -64,7 +65,7 @@ const Contact = () => {
           <li><Link to="/about">About the Museum</Link></li>
           <li><Link to="/events">Upcoming Events</Link></li>
           <li><Link to="/community">Community Links</Link></li>
-          <li><Link to="/brochures"></Link></li>
+          <li><Link to="/brochures">Brochures</Link></li>
           <li><a href="http://www.fultzhouse.ca/">Home</a></li>
         </ul>
         <div className="clear"></div>

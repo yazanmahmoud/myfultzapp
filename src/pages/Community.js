@@ -1,8 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/logo.png';
 
 const Community = () => (
   <div id="container">
+    <div id="header">
+      <a href="http://www.fultzhouse.ca/">
+        <img alt="Fultz House Museum" id="logo" src={logo} />
+      </a>
+    </div>
+
     <div id="content">
       <div id="left">
         <ul id="nav">
@@ -23,7 +30,15 @@ const Community = () => (
           <li><a href="#Tea">Event - Drive Thru Sponsors</a></li>
           <li><a href="#Museums">Nearby Historic Sites and Museums</a></li>
           <li><a href="#Sackville">Sackville Community Links</a></li>
-          <li><a href="http://www.hotelscombined.ca/Place/Lower_Sackville.htm" target="_blank" rel="noopener noreferrer">Find Lower Sackville hotels at HotelsCombined</a></li>
+          <li>
+            <a
+              href="http://www.hotelscombined.ca/Place/Lower_Sackville.htm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Find Lower Sackville hotels at HotelsCombined
+            </a>
+          </li>
         </ul>
 
         <br /><br /><br />
@@ -106,6 +121,7 @@ const Community = () => (
           </tbody>
         </table>
       </div>
+
       <div className="clear"></div>
     </div>
 
