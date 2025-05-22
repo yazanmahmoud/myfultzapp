@@ -15,7 +15,7 @@ const About = () => (
       <div id="left">
         <ul id="nav">
           <li><Link className="sackville" to="/history">Sackville: A Brief History</Link></li>
-          <li><Link className="about current" to="/about">About the Museum</Link></li>
+          <li><Link className="about current" to="/about/about">About the Museum</Link></li>
           <li><Link className="events" to="/events">Upcoming Events</Link></li>
           <li><Link className="links" to="/community">Community Links</Link></li>
           <li><Link className="brochures" to="/brochures">Historical Brochures</Link></li>
@@ -26,7 +26,7 @@ const About = () => (
           To collect, preserve, and present the history and interests of Sackville, Lucasville,
           Beaver Bank/Kinsac and the surrounding area.
         </p>
-        <a href="/about/Volunteer.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/brochures/Volunteer.pdf" target="_blank" rel="noopener noreferrer">
           A Volunteer Destination
         </a>
       </div>

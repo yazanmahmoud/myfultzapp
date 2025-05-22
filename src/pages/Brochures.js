@@ -90,7 +90,7 @@ function Brochures() {
               {brochures.map(({ file, title }) => (
                 <tr key={file}>
                   <td>
-                    <a href={`../brochures/${file}`} target="_blank" rel="noopener noreferrer">
+                    <a href={`/brochures/${file}`} target="_blank" rel="noopener noreferrer">
                       {title}
                     </a>
                   </td>
