@@ -11,7 +11,7 @@ const History = () => {
     
     <div id="container">
       <div id="header">
-        <a href="/">
+        <a href="https://www.fultzhouse.ca/">
           <img id="logo" src={logo} alt="Fultz House Museum" />
         </a>
       </div>
@@ -117,7 +117,7 @@ const History = () => {
           <li><Link to="/community">Community Links</Link></li>
           <li><Link to="/brochures">Brochures</Link></li>
           <li><Link to="/contact">Contact Us</Link></li>
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="https://www.fultzhouse.ca/">Home</Link></li>
         </ul>
         <div className="clear" />
       </div>

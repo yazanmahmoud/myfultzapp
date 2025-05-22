@@ -5,7 +5,7 @@ import logo from '../images/logo.png';
 const Community = () => (
   <div id="container">
     <div id="header">
-      <a href="/">
+      <a href="https://www.fultzhouse.ca/">
         <img alt="Fultz House Museum" id="logo" src={logo} />
       </a>
     </div>
@@ -133,7 +133,7 @@ const Community = () => (
         <li><Link to="/community">Community Links</Link></li>
         <li><Link to="/brochures">Brochures</Link></li>
         <li><Link to="/contact">Contact Us</Link></li>
-        <li><a href="/">Home</a></li>
+        <li><a href="https://www.fultzhouse.ca/">Home</a></li>
       </ul>
       <div className="clear"></div>
       </div>
