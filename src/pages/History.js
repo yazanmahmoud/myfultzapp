@@ -17,8 +17,7 @@ const History = () => {
       </div>
 
       <div id="content">
-        {/* Sidebar Navigation */}
-        <div id="left">
+      <div id="left">
           <ul id="nav">
             <li><Link to="/history" className="sackville current">Sackville: A Brief History</Link></li>
             <li><Link to="/about" className="about">About the Museum</Link></li>
