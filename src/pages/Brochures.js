@@ -67,7 +67,7 @@ function Brochures() {
   return (
     <div id="container">
       <div id="header">
-        <a href="http://www.fultzhouse.ca/">
+        <a href="/">
           <img alt="Fultz House Museum" id="logo" src={logo} />
         </a>
       </div>
@@ -111,7 +111,7 @@ function Brochures() {
                   <li><Link to="/community">Community Links</Link></li>
                   <li><Link to="/brochures">Brochures</Link></li>
                   <li><Link to="/contact">Contact Us</Link></li>
-                  <li><a href="/home">Home</a></li>
+                  <li><a href="/">Home</a></li>
                 </ul>
         <div className="clear"></div>
       </div>

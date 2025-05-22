@@ -6,7 +6,7 @@ const Events = () => {
   return (
     <div id="container">
       <div id="header">
-        <a href="http://www.fultzhouse.ca/">
+        <a href="/">
           <img id="logo" src={logo} alt="Fultz House Museum" />
         </a>
       </div>
@@ -114,7 +114,7 @@ const Events = () => {
           <li><Link to="/community">Community Links</Link></li>
           <li><Link to="/brochures">Brochures</Link></li>
           <li><Link to="/contact">Contact Us</Link></li>
-          <li><a href="http://www.fultzhouse.ca/">Home</a></li>
+          <li><a href="/">Home</a></li>
         </ul>
         <div className="clear"></div>
       </div>
