@@ -10,7 +10,7 @@ import History from './pages/History';
 function App() {
   return (
     <Router>
-      
+      <nav style={{ padding: '1rem', display: 'flex', gap: '1rem' }}>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/brochures">Brochures</Link>
@@ -18,7 +18,7 @@ function App() {
         <Link to="/contact">Contact</Link>
         <Link to="/events">Events</Link>
         <Link to="/history">History</Link>
-      
+      </nav>
 
       <main>
         <Routes>
