@@ -125,7 +125,7 @@ const Community = () => (
       <div className="clear"></div>
     </div>
 
-    <footer id="footer">
+    <div id="footer">
       <ul id="navFooter">
         <li><Link to="/history">Sackville History</Link></li>
         <li><Link to="/about">About the Museum</Link></li>
@@ -136,7 +136,10 @@ const Community = () => (
         <li><a href="/">Home</a></li>
       </ul>
       <div className="clear"></div>
+      </div>
+
       <a href="https://www.facebook.com/FultzHouse/" id="facebook">Follow us on Facebook</a>
+
       <p id="copyright">
         © 2024 Fultz Corner Restoration Society
         <span className="credit">
@@ -144,10 +147,11 @@ const Community = () => (
           Managed by Paige Aziz
         </span>
       </p>
-    </footer>
+    
 
-    <div className="overlay"></div>
-  </div>
+     <div className="overlay"></div>
+   </div>
+  
 );
 
 export default Community;
