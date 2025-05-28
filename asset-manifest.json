@@ -1,10 +1,15 @@
 {
   "files": {
     "main.css": "/myfultzapp/static/css/main.2897852e.css",
-    "main.js": "/myfultzapp/static/js/main.49968f38.js",
+    "main.js": "/myfultzapp/static/js/main.26d48766.js",
     "static/media/gazebo.png": "/myfultzapp/static/media/gazebo.5355580b34ee19765819.png",
     "static/media/bgHeader.png": "/myfultzapp/static/media/bgHeader.76973bac55d973e84c70.png",
+    "static/media/map.png": "/myfultzapp/static/media/map.8e7f98f7b3f729351a58.png",
+    "static/media/photoBlacksmith.png": "/myfultzapp/static/media/photoBlacksmith.cfe33305a15948e2da82.png",
     "static/media/photoHouse.png": "/myfultzapp/static/media/photoHouse.13150e5d98ef0af1cb0a.png",
+    "static/media/photo02.png": "/myfultzapp/static/media/photo02.7157fb44e6bb8acd875e.png",
+    "static/media/photo03.png": "/myfultzapp/static/media/photo03.e94cfc1e8fc35a83d931.png",
+    "static/media/photo01.png": "/myfultzapp/static/media/photo01.d4979c8027f55caaff8c.png",
     "static/media/logo.png": "/myfultzapp/static/media/logo.d67bcba7fd034793d36a.png",
     "static/media/bgFooter.png": "/myfultzapp/static/media/bgFooter.51a935e9f0020abaf983.png",
     "static/media/fax.jpg": "/myfultzapp/static/media/fax.ac8e5e07621a1ee95ba6.jpg",
@@ -12,10 +17,10 @@
     "static/media/navBrochures.png": "/myfultzapp/static/media/navBrochures.bf6747288bc76fb110b0.png",
     "index.html": "/myfultzapp/index.html",
     "main.2897852e.css.map": "/myfultzapp/static/css/main.2897852e.css.map",
-    "main.49968f38.js.map": "/myfultzapp/static/js/main.49968f38.js.map"
+    "main.26d48766.js.map": "/myfultzapp/static/js/main.26d48766.js.map"
   },
   "entrypoints": [
     "static/css/main.2897852e.css",
-    "static/js/main.49968f38.js"
+    "static/js/main.26d48766.js"
   ]
 }
