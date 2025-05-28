@@ -14,11 +14,11 @@ const About = () => (
     <div id="content">
       <div id="left">
         <ul id="nav">
-          <li><Link className="sackville" to="/history">Sackville: A Brief History</Link></li>
-          <li><Link className="about current" to="/about">About the Museum</Link></li>
-          <li><Link className="events" to="/events">Upcoming Events</Link></li>
-          <li><Link className="links" to="/community">Community Links</Link></li>
-          <li><Link className="brochures" to="/brochures">Historical Brochures</Link></li>
+          <li><a className="sackville" href="#/history">Sackville: A Brief History</a></li>
+         <li><a className="about current" href="#/about">About the Museum</a></li>
+         <li><a className="events" href="#/events">Upcoming Events</a></li>
+         <li><a className="links" href="#/community">Community Links</a></li>
+         <li><a className="brochures" href="#/brochures">Historical Brochures</a></li>
         </ul>
 
         <h2>Purpose Statement</h2>
