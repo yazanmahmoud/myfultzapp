@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myfultzapp/static/css/main.10c1f023.css",
-    "main.js": "/myfultzapp/static/js/main.3440fa67.js",
+    "main.js": "/myfultzapp/static/js/main.fc1fd799.js",
     "static/media/gazebo.png": "/myfultzapp/static/media/gazebo.5355580b34ee19765819.png",
     "static/media/bgHeader.png": "/myfultzapp/static/media/bgHeader.76973bac55d973e84c70.png",
     "static/media/map.png": "/myfultzapp/static/media/map.8e7f98f7b3f729351a58.png",
@@ -17,10 +17,10 @@
     "static/media/navBrochures.png": "/myfultzapp/static/media/navBrochures.bf6747288bc76fb110b0.png",
     "index.html": "/myfultzapp/index.html",
     "main.10c1f023.css.map": "/myfultzapp/static/css/main.10c1f023.css.map",
-    "main.3440fa67.js.map": "/myfultzapp/static/js/main.3440fa67.js.map"
+    "main.fc1fd799.js.map": "/myfultzapp/static/js/main.fc1fd799.js.map"
   },
   "entrypoints": [
     "static/css/main.10c1f023.css",
-    "static/js/main.3440fa67.js"
+    "static/js/main.fc1fd799.js"
   ]
 }
