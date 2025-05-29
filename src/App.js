@@ -10,7 +10,7 @@ import History from './pages/History';
 function App() {
   return (
     <Router>
-      <main>
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/history" element={<History />} />
         </Routes>
-      </main>
+      
     </Router>
   );
 }

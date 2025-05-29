@@ -62,6 +62,27 @@ const brochures = [
   { file: 'Whatnot.pdf', title: 'Whatnots? to Chamber Pots: Everyday Life in the Mid-19th Century' },
 ];
 
+// ✅ Moved outside component
+const BrochuresTable = () => (
+  <table>
+    <tbody>
+      {brochures.map(({ file, title }) => (
+        <tr key={file}>
+          <td>
+            <a
+              href={`${process.env.PUBLIC_URL}/brochures/${file}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {title}
+            </a>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+);
+
 function Brochures() {
   return (
     <div id="container">
@@ -74,44 +95,32 @@ function Brochures() {
       <div id="content">
         <div id="left">
           <ul id="nav">
-         <li><a className="sackville" href="#/history">Sackville: A Brief History</a></li>
-         <li><a className="about current" href="#/about">About the Museum</a></li>
-         <li><a className="events" href="#/events">Upcoming Events</a></li>
-         <li><a className="links" href="#/community">Community Links</a></li>
-         <li><a className="brochures" href="#/brochures">Historical Brochures</a></li>
+            <li><a className="sackville" href="#/history">Sackville: A Brief History</a></li>
+            <li><a className="about current" href="#/about">About the Museum</a></li>
+            <li><a className="events" href="#/events">Upcoming Events</a></li>
+            <li><a className="links" href="#/community">Community Links</a></li>
+            <li><a className="brochures" href="#/brochures">Historical Brochures</a></li>
           </ul>
         </div>
 
         <div id="right">
           <h1>Historical Brochures</h1>
-          <table>
-            <tbody>
-              {brochures.map(({ file, title }) => (
-                <tr key={file}>
-                  <td>
-                    <a href={`/brochures/${file}`} target="_blank" rel="noopener noreferrer">
-                      {title}
-                    </a>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <BrochuresTable />
         </div>
 
         <div className="clear"></div>
       </div>
 
       <div id="footer">
-          <ul id="navFooter">
-            <li><a href="#/history">Sackville History</a></li>
-            <li><a href="#/about">About the Museum</a></li>
-            <li><a href="#/events">Upcoming Events</a></li>
-            <li><a href="#/community">Community Links</a></li>
-            <li><a href="#/brochures">Brochures</a></li>
-            <li><a href="#/contact">Contact Us</a></li>
-            <li><a href="https://www.fultzhouse.ca/">Home</a></li>
-          </ul>
+        <ul id="navFooter">
+          <li><a href="#/history">Sackville History</a></li>
+          <li><a href="#/about">About the Museum</a></li>
+          <li><a href="#/events">Upcoming Events</a></li>
+          <li><a href="#/community">Community Links</a></li>
+          <li><a href="#/brochures">Brochures</a></li>
+          <li><a href="#/contact">Contact Us</a></li>
+          <li><a href="https://www.fultzhouse.ca/">Home</a></li>
+        </ul>
         <div className="clear"></div>
       </div>
 
