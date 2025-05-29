@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div id="container">
       <div id="header">
-        <a href="#/home">
+        <a href="#/">
           <img alt="Fultz House Museum" id="logo" src={Logo} />
         </a>
         <address className="header">
@@ -81,7 +81,7 @@ const Home = () => {
           <li><a href="#/community">Community Links</a></li>
           <li><a href="#/brochures">Brochures</a></li>
           <li><a href="#/contact">Contact Us</a></li>
-          <li><a href="#/home">Home</a></li>
+          <li><a href="#/">Home</a></li>
       </ul>
         <div className="clear"></div>
       </div>
