@@ -111,7 +111,7 @@ const About = () => (
         <li><a href="#/community">Community Links</a></li>
         <li><a href="#/brochures">Brochures</a></li>
         <li><a href="#/contact">Contact Us</a></li>
-        <li><a href="/">Home</a></li>
+        <li><a href="#/">Home</a></li>
       </ul>
 
       <div className="clear"></div>
