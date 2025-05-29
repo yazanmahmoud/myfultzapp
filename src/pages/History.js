@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../images/logo.png';
 import photo01 from '../images/photo01.png';
 import photo02 from '../images/photo02.png';
@@ -19,12 +18,13 @@ const History = () => {
       <div id="content">
       <div id="left">
           <ul id="nav">
-            <li><Link to="/history" className="sackville current">Sackville: A Brief History</Link></li>
-            <li><Link to="/about" className="about">About the Museum</Link></li>
-            <li><Link to="/events" className="events">Upcoming Events</Link></li>
-            <li><Link to="/community" className="links">Community Links</Link></li>
-            <li><Link to="/brochures" className="brochures">Historical Brochures</Link></li>
-          </ul>
+            <li><a className="sackville" href="#/history">Sackville: A Brief History</a></li>
+            <li><a className="about current" href="#/about">About the Museum</a></li>
+            <li><a className="events" href="#/events">Upcoming Events</a></li>
+            <li><a className="links" href="#/community">Community Links</a></li>
+            <li><a className="brochures" href="#/brochures">Historical Brochures</a></li>
+         </ul>
+
         </div>
 
         {/* Main Content */}
@@ -110,15 +110,15 @@ const History = () => {
 
       {/* Footer */}
       <div id="footer">
-        <ul id="navFooter">
-          <li><Link to="/history">Sackville History</Link></li>
-          <li><Link to="/about">About the Museum</Link></li>
-          <li><Link to="/events">Upcoming Events</Link></li>
-          <li><Link to="/community">Community Links</Link></li>
-          <li><Link to="/brochures">Brochures</Link></li>
-          <li><Link to="/contact">Contact Us</Link></li>
-          <li><Link to="https://www.fultzhouse.ca/">Home</Link></li>
-        </ul>
+       <ul id="navFooter">
+        <li><a href="#/history">Sackville History</a></li>
+        <li><a href="#/about">About the Museum</a></li>
+        <li><a href="#/events">Upcoming Events</a></li>
+        <li><a href="#/community">Community Links</a></li>
+        <li><a href="#/brochures">Brochures</a></li>
+        <li><a href="#/contact">Contact Us</a></li>
+        <li><a href="https://www.fultzhouse.ca/">Home</a></li>
+      </ul>
         <div className="clear" />
       </div>
 

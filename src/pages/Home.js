@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Logo from '../images/logo.png';
 import PhoneIcon from '../images/icon-phone.gif';
 import FaxIcon from '../images/fax.jpg';
@@ -26,12 +25,13 @@ const Home = () => {
       <div id="content">
         <div id="left">
           <ul id="nav">
-            <li><Link className="sackville" to="/history">Sackville: A Brief History</Link></li>
-            <li><Link className="about" to="/about">About the Museum</Link></li>
-            <li><Link className="events" to="/events">Upcoming Events</Link></li>
-            <li><Link className="links" to="/community">Community Links</Link></li>
-            <li><Link className="brochures" to="/brochures">Historical Brochures</Link></li>
-          </ul>
+           <li><a className="sackville" href="#/history">Sackville: A Brief History</a></li>
+           <li><a className="about current" href="#/about">About the Museum</a></li>
+           <li><a className="events" href="#/events">Upcoming Events</a></li>
+           <li><a className="links" href="#/community">Community Links</a></li>
+           <li><a className="brochures" href="#/brochures">Historical Brochures</a></li>
+         </ul>
+
         </div>
 
         <div id="right">
@@ -53,7 +53,7 @@ const Home = () => {
 
           <h2>Where to find us</h2>
           <p>Fultz House Museum is located at the intersection between Old Sackville Road, Sackville Drive and Cobequid Road in Lower Sackville, Nova Scotia.</p>
-          <p>Click on the <Link to="/contact">Contact Us</Link> page for more information and directions.</p>
+          <p>Click on the <a href="#/contact">Contact Us</a> page for more information and directions.</p>
 
           <div className="hours">
             <p><strong>The Museum is open to the public as follows:</strong></p>
@@ -75,14 +75,14 @@ const Home = () => {
 
       <div id="footer">
         <ul id="navFooter">
-          <li><Link to="/history">Sackville History</Link></li>
-          <li><Link to="/about">About the Museum</Link></li>
-          <li><Link to="/events">Upcoming Events</Link></li>
-          <li><Link to="/community">Community Links</Link></li>
-          <li><Link to="/brochures">Brochures</Link></li>
-          <li><Link to="/contact">Contact Us</Link></li>
+          <li><a href="#/history">Sackville History</a></li>
+          <li><a href="#/about">About the Museum</a></li>
+          <li><a href="#/events">Upcoming Events</a></li>
+          <li><a href="#/community">Community Links</a></li>
+          <li><a href="#/brochures">Brochures</a></li>
+          <li><a href="#/contact">Contact Us</a></li>
           <li><a href="https://www.fultzhouse.ca/">Home</a></li>
-        </ul>
+      </ul>
         <div className="clear"></div>
       </div>
 
