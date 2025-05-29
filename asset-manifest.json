@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myfultzapp/static/css/main.2897852e.css",
-    "main.js": "/myfultzapp/static/js/main.baa0482d.js",
+    "main.css": "/myfultzapp/static/css/main.10c1f023.css",
+    "main.js": "/myfultzapp/static/js/main.9a3045dd.js",
     "static/media/gazebo.png": "/myfultzapp/static/media/gazebo.5355580b34ee19765819.png",
     "static/media/bgHeader.png": "/myfultzapp/static/media/bgHeader.76973bac55d973e84c70.png",
     "static/media/map.png": "/myfultzapp/static/media/map.8e7f98f7b3f729351a58.png",
@@ -16,11 +16,11 @@
     "static/media/navSackville.png": "/myfultzapp/static/media/navSackville.db45466acb0387cbc8b7.png",
     "static/media/navBrochures.png": "/myfultzapp/static/media/navBrochures.bf6747288bc76fb110b0.png",
     "index.html": "/myfultzapp/index.html",
-    "main.2897852e.css.map": "/myfultzapp/static/css/main.2897852e.css.map",
-    "main.baa0482d.js.map": "/myfultzapp/static/js/main.baa0482d.js.map"
+    "main.10c1f023.css.map": "/myfultzapp/static/css/main.10c1f023.css.map",
+    "main.9a3045dd.js.map": "/myfultzapp/static/js/main.9a3045dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.2897852e.css",
-    "static/js/main.baa0482d.js"
+    "static/css/main.10c1f023.css",
+    "static/js/main.9a3045dd.js"
   ]
 }
