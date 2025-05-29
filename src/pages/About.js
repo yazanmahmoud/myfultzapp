@@ -105,13 +105,13 @@ const About = () => (
 
     <div id="footer">
       <ul id="navFooter">
-         <li><a href="#/history">Sackville History</a></li>
+         <li><a href="/history">Sackville History</a></li>
         <li><a href="#/about">About the Museum</a></li>
         <li><a href="#/events">Upcoming Events</a></li>
         <li><a href="#/community">Community Links</a></li>
         <li><a href="#/brochures">Brochures</a></li>
         <li><a href="#/contact">Contact Us</a></li>
-        <li><a href="#/">Home</a></li>
+        <li><a href="/">Home</a></li>
       </ul>
 
       <div className="clear"></div>
