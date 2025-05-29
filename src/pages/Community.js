@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../images/logo.png';
+import PhoneIcon from '../images/icon-phone.gif';
 
 const Community = () => (
   <div id="container">
@@ -13,9 +14,9 @@ const Community = () => (
       <div id="left">
         <ul id="nav">
          <li><a className="sackville" href="#/history">Sackville: A Brief History</a></li>
-         <li><a className="about current" href="#/about">About the Museum</a></li>
+         <li><a className="about" href="#/about">About the Museum</a></li>
          <li><a className="events" href="#/events">Upcoming Events</a></li>
-         <li><a className="links" href="#/community">Community Links</a></li>
+         <li><a className="links current" href="#/community">Community Links</a></li>
          <li><a className="brochures" href="#/brochures">Historical Brochures</a></li>
         </ul>
 
@@ -49,43 +50,43 @@ const Community = () => (
             <tr id="HRM"><td className="label" colSpan={2}>HRM Municipal Representatives</td></tr>
             <tr>
               <td><a href="https://www.halifax.ca/city-hall/districts-councillors">Paul Russell</a> — District 15, Lower Sackville</td>
-              <td className="number">📞 902-240-0441<br /><a href="mailto:paul.russell@halifax.ca">paul.russell@halifax.ca</a></td>
+              <td className="number"><img src={PhoneIcon} alt="Phone" width="12" height="9" className="icon" /> 902-240-0441<br /><a href="mailto:paul.russell@halifax.ca">paul.russell@halifax.ca</a></td>
             </tr>
             <tr>
               <td><a href="https://www.halifax.ca/city-hall/districts-councillors/district-1">Cathy Deagle-Gammon</a> — District 1</td>
-              <td className="number">📞 902-717-2718<br /><a href="mailto:cathy.deaglegammon@halifax.ca">cathy.deaglegammon@halifax.ca</a></td>
+              <td className="number"><img src={PhoneIcon} alt="Phone" width="12" height="9" className="icon" /> 902-717-2718<br /><a href="mailto:cathy.deaglegammon@halifax.ca">cathy.deaglegammon@halifax.ca</a></td>
             </tr>
 
             {/* MLAs */}
             <tr id="MLA"><td className="label" colSpan={2}>Members of the Legislative Assembly (MLAs)</td></tr>
             <tr>
               <td><a href="https://nslegislature.ca/members/profiles/steve-craig">Steve Craig</a> (PC) — Sackville-Cobequid</td>
-              <td className="number">📞 902-864-6271<br /><a href="mailto:steve.craig@novascotia.ca">steve.craig@novascotia.ca</a></td>
+              <td className="number"><img src={PhoneIcon} alt="Phone" width="12" height="9" className="icon" /> 902-864-6271<br /><a href="mailto:steve.craig@novascotia.ca">steve.craig@novascotia.ca</a></td>
             </tr>
             <tr>
               <td><a href="https://nslegislature.ca/members/profiles/brad-bj-johns">Brad Johns (PC)</a> — Sackville-Uniacke</td>
-              <td className="number">📞 902-865-6467<br /><a href="mailto:bradjohns4mla@gmail.com">bradjohns4mla@gmail.com</a></td>
+              <td className="number"><img src={PhoneIcon} alt="Phone" width="12" height="9" className="icon" /> 902-865-6467<br /><a href="mailto:bradjohns4mla@gmail.com">bradjohns4mla@gmail.com</a></td>
             </tr>
             <tr>
               <td><a href="https://nslegislature.ca/members/profiles/brian-wong">Brian Wong (PC)</a> — Waverley-Fall River-Beaver Bank</td>
-              <td className="number">📞 902-576-3411<br /><a href="mailto:brianwongmla@gmail.com">brianwongmla@gmail.com</a></td>
+              <td className="number"><img src={PhoneIcon} alt="Phone" width="12" height="9" className="icon" /> 902-576-3411<br /><a href="mailto:brianwongmla@gmail.com">brianwongmla@gmail.com</a></td>
             </tr>
 
             {/* MPs */}
             <tr id="MP"><td className="label" colSpan={2}>Members of Parliament (MPs)</td></tr>
             <tr>
               <td><a href="https://www.ourcommons.ca/Members/en/darrell-samson(88333)">Darrell Samson</a> — Sackville–Preston–Chezzetcook</td>
-              <td className="number">📞 902-861-2311<br /><a href="mailto:darrell.samson@parl.gc.ca">darrell.samson@parl.gc.ca</a></td>
+              <td className="number"><img src={PhoneIcon} alt="Phone" width="12" height="9" className="icon" /> 902-861-2311<br /><a href="mailto:darrell.samson@parl.gc.ca">darrell.samson@parl.gc.ca</a></td>
             </tr>
             <tr>
               <td><a href="https://lenametlegediab.libparl.ca">Lena Metledge Diab</a> — Halifax West</td>
-              <td className="number">📞 902-426-2217<br /><a href="mailto:lenametlege.diab@parl.gc.ca">lenametlege.diab@parl.gc.ca</a></td>
+              <td className="number"><img src={PhoneIcon} alt="Phone" width="12" height="9" className="icon" /> 902-426-2217<br /><a href="mailto:lenametlege.diab@parl.gc.ca">lenametlege.diab@parl.gc.ca</a></td>
             </tr>
 
             {/* Sponsors */}
             <tr id="Tea"><td className="label" colSpan={2}>Event - Drive Thru Sponsors</td></tr>
-            <tr><td><a href="http://www.paulrussell.ca/">Councillor Paul Russell</a></td><td className="number">📞 902-240-0441</td></tr>
-            <tr><td><a href="http://www.halifax.ca/city-hall/districts-councillors/district-14/councillor-lisa-blackburn">Councillor Lisa Blackburn</a></td><td className="number">📞 902-579-7164</td></tr>
+            <tr><td><a href="http://www.paulrussell.ca/">Councillor Paul Russell</a></td><td className="number"><img src={PhoneIcon} alt="Phone" width="12" height="9" className="icon" /> 902-240-0441</td></tr>
+            <tr><td><a href="http://www.halifax.ca/city-hall/districts-councillors/district-14/councillor-lisa-blackburn">Councillor Lisa Blackburn</a></td><td className="number"><img src={PhoneIcon} alt="Phone" width="12" height="9" className="icon" /> 902-579-7164</td></tr>
             <tr><td>Members, Volunteers and Friends of the Fultz Corner Restoration Society</td></tr>
 
             {/* Museums */}
