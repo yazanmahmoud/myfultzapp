@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div id="container">
       <div id="header">
-        <a href="#/">
+        <a href="./">
           <img alt="Fultz House Museum" id="logo" src={Logo} />
         </a>
         <address className="header">
@@ -25,11 +25,11 @@ const Home = () => {
       <div id="content">
         <div id="left">
           <ul id="nav">
-           <li><a className="sackville" href="#/history">Sackville: A Brief History</a></li>
-           <li><a className="about" href="#/about">About the Museum</a></li>
-           <li><a className="events" href="#/events">Upcoming Events</a></li>
-           <li><a className="links" href="#/community">Community Links</a></li>
-           <li><a className="brochures" href="#/brochures">Historical Brochures</a></li>
+           <li><a className="sackville" href="./history">Sackville: A Brief History</a></li>
+           <li><a className="about" href="./about">About the Museum</a></li>
+           <li><a className="events" href="./events">Upcoming Events</a></li>
+           <li><a className="links" href="./community">Community Links</a></li>
+           <li><a className="brochures" href="./brochures">Historical Brochures</a></li>
          </ul>
 
         </div>
@@ -53,7 +53,7 @@ const Home = () => {
 
           <h2>Where to find us</h2>
           <p>Fultz House Museum is located at the intersection between Old Sackville Road, Sackville Drive and Cobequid Road in Lower Sackville, Nova Scotia.</p>
-          <p>Click on the <a href="#/contact">Contact Us</a> page for more information and directions.</p>
+          <p>Click on the <a href="./contact">Contact Us</a> page for more information and directions.</p>
 
           <div className="hours">
             <p><strong>The Museum is open to the public as follows:</strong></p>
@@ -75,13 +75,13 @@ const Home = () => {
 
       <div id="footer">
         <ul id="navFooter">
-          <li><a href="#/history">Sackville History</a></li>
-          <li><a href="#/about">About the Museum</a></li>
-          <li><a href="#/events">Upcoming Events</a></li>
-          <li><a href="#/community">Community Links</a></li>
-          <li><a href="#/brochures">Brochures</a></li>
-          <li><a href="#/contact">Contact Us</a></li>
-          <li><a href="#/">Home</a></li>
+          <li><a href="./history">Sackville History</a></li>
+          <li><a href="./about">About the Museum</a></li>
+          <li><a href="./events">Upcoming Events</a></li>
+          <li><a href="./community">Community Links</a></li>
+          <li><a href="./brochures">Brochures</a></li>
+          <li><a href="./contact">Contact Us</a></li>
+          <li><a href="./">Home</a></li>
       </ul>
         <div className="clear"></div>
       </div>

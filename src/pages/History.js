@@ -10,7 +10,7 @@ const History = () => {
     
     <div id="container">
       <div id="header">
-        <a href="#/">
+        <a href="./">
           <img id="logo" src={logo} alt="Fultz House Museum" />
         </a>
       </div>
@@ -18,11 +18,11 @@ const History = () => {
       <div id="content">
       <div id="left">
           <ul id="nav">
-            <li><a className="sackville current" href="#/history">Sackville: A Brief History</a></li>
-            <li><a className="about" href="#/about">About the Museum</a></li>
-            <li><a className="events" href="#/events">Upcoming Events</a></li>
-            <li><a className="links" href="#/community">Community Links</a></li>
-            <li><a className="brochures" href="#/brochures">Historical Brochures</a></li>
+            <li><a className="sackville current" href="./history">Sackville: A Brief History</a></li>
+            <li><a className="about" href="./about">About the Museum</a></li>
+            <li><a className="events" href="./events">Upcoming Events</a></li>
+            <li><a className="links" href="./community">Community Links</a></li>
+            <li><a className="brochures" href="./brochures">Historical Brochures</a></li>
          </ul>
 
         </div>
@@ -111,13 +111,13 @@ const History = () => {
       {/* Footer */}
       <div id="footer">
        <ul id="navFooter">
-        <li><a href="#/history">Sackville History</a></li>
-        <li><a href="#/about">About the Museum</a></li>
-        <li><a href="#/events">Upcoming Events</a></li>
-        <li><a href="#/community">Community Links</a></li>
-        <li><a href="#/brochures">Brochures</a></li>
-        <li><a href="#/contact">Contact Us</a></li>
-        <li><a href="#/">Home</a></li>
+        <li><a href="/history">Sackville History</a></li>
+        <li><a href="./about">About the Museum</a></li>
+        <li><a href="./events">Upcoming Events</a></li>
+        <li><a href="./community">Community Links</a></li>
+        <li><a href="./brochures">Brochures</a></li>
+        <li><a href="./contact">Contact Us</a></li>
+        <li><a href="./">Home</a></li>
       </ul>
         <div className="clear" />
       </div>
