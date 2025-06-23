@@ -22,6 +22,7 @@ const Home = () => {
           <img alt="Email" className="icon" src={EmailIcon} width="11" height="8" />
           <a href="mailto:fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a>
         </address>
+       
         <div style={{ float: 'right', textAlign: 'right' }}>
     <TimeDate />
     <Weather />

@@ -20,7 +20,7 @@ const Weather = () => {
   if (!weather) return <div>Loading weather...</div>;
 
   return (
-    <div style={{ fontSize: '1.5em' }}>
+    <div style={{ fontSize: '1.5em', marginRight: '15px'}}>
       🌡 {weather.main.temp}°C 
     </div>
   );
