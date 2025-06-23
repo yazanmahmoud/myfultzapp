@@ -36,7 +36,7 @@ const Contact = () => {
           </p>
           <p>
             <img src={PhoneIcon} alt="Phone" width="12" height="9" className="icon" /> Telephone: 902-865-3794<br />
-            <img src={FaxIcon} alt="Fax" width="14" height="14" className="icon" /> Fax: 902-865-6940<br />
+            <img src={FaxIcon} alt="Fax" width="12" height="14" className="icon" /> Fax: 902-865-6940<br />
             <img src={EmailIcon} alt="Email" width="11" height="8" className="icon" /> Email: <a href="mailto:fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a>
           </p>
 
