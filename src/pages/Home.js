@@ -1,4 +1,6 @@
 import React from 'react';
+import TimeDate from '../components/TimeDate';
+import Weather from '../components/Weather';
 import Logo from '../images/logo.png';
 import PhoneIcon from '../images/icon-phone.gif';
 import FaxIcon from '../images/fax.jpg';
@@ -20,6 +22,11 @@ const Home = () => {
           <img alt="Email" className="icon" src={EmailIcon} width="11" height="8" />
           <a href="mailto:fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a>
         </address>
+        <div style={{ float: 'right', textAlign: 'right' }}>
+    <TimeDate />
+    <Weather />
+  </div>
+
       </div>
 
       <div id="content">

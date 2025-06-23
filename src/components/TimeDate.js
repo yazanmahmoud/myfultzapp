@@ -9,8 +9,10 @@ const TimeDate = () => {
   }, []);
 
   return (
-    <div style={{ fontSize: '0.9em', marginBottom: '10px' }}>
-      {dateTime.toLocaleDateString()} | {dateTime.toLocaleTimeString()}
+    <div style={{ fontSize: '1.5em', marginBottom: '10px' }}>
+      {dateTime.toLocaleDateString()}
+       <br></br>
+      {dateTime.toLocaleTimeString()}
     </div>
   );
 };

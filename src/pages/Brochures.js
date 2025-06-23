@@ -62,7 +62,7 @@ const brochures = [
   { file: 'Whatnot.pdf', title: 'Whatnots? to Chamber Pots: Everyday Life in the Mid-19th Century' },
 ];
 
-// ✅ Moved outside component
+
 const BrochuresTable = () => (
   <table>
     <tbody>

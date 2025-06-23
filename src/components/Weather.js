@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API_KEY = 'YOUR_OPENWEATHERMAP_API_KEY'; // Replace with your actual API key
-const CITY = 'Halifax'; // Or use geolocation
+const API_KEY = '379aae74750f67c28545cbb79d4aff6a'; 
+const CITY = 'Halifax'; 
 
 const Weather = () => {
   const [weather, setWeather] = useState(null);
@@ -20,8 +20,8 @@ const Weather = () => {
   if (!weather) return <div>Loading weather...</div>;
 
   return (
-    <div style={{ fontSize: '0.9em' }}>
-      🌡 {weather.main.temp}°C | {weather.weather[0].description}
+    <div style={{ fontSize: '1.5em' }}>
+      🌡 {weather.main.temp}°C 
     </div>
   );
 };
