@@ -9,7 +9,7 @@ const TimeDate = () => {
   }, []);
 
   return (
-    <div style={{ fontSize: '1.2em', marginBottom: '15px', marginRight: '25px', marginTop: '20px' }}>
+    <div style={{ fontSize: '1.2em', marginBottom: '15px', marginRight: '30px', marginTop: '20px' }}>
       {dateTime.toLocaleDateString()}
        <br></br>
       {dateTime.toLocaleTimeString()}
