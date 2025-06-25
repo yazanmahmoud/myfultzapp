@@ -97,13 +97,12 @@ const Home = () => {
       <a href="https://www.facebook.com/FultzHouse/" id="facebook">Follow us on Facebook</a>
 
       <p id="copyright">
-        © 2024 Fultz Corner Restoration Society
+        © 2025 Fultz Corner Restoration Society
         <span className="credit">
-          Site designed and developed by <a href="mailto:tywalkland@hotmail.com">Ty Walkland</a>.<br />
-          Managed by Paige Aziz
+          Site designed and developed by <a href="mailto:yazan.shaker@gmail.com">Yazan Mahmoud</a>.<br />
         </span>
       </p>
-
+      
       <div className="overlay"></div>
     </div>
   );

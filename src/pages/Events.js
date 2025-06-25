@@ -122,9 +122,9 @@ const Events = () => {
       <a id="facebook" href="https://www.facebook.com/FultzHouse/">Find us on Facebook</a>
 
       <p id="copyright">
-        Copyright © 2024 Fultz Corner Restoration Society <span className="credit">
-          Site designed and developed by <a href="mailto:tywalkland@hotmail.com">Ty Walkland</a>.<br />
-          Managed by Paige Aziz
+        © 2025 Fultz Corner Restoration Society
+        <span className="credit">
+          Site designed and developed by <a href="mailto:yazan.shaker@gmail.com">Yazan Mahmoud</a>.<br />
         </span>
       </p>
 

@@ -126,11 +126,10 @@ function Brochures() {
 
       <a href="https://www.facebook.com/FultzHouse/" id="facebook">Find us on Facebook</a>
 
-      <p id="copyright">
-        Copyright © 2016 Fultz Corner Restoration Society{' '}
+     <p id="copyright">
+        © 2025 Fultz Corner Restoration Society
         <span className="credit">
-          Site designed and developed by{' '}
-          <a href="mailto:tywalkland@hotmail.com">Ty Walkland</a>.
+          Site designed and developed by <a href="mailto:yazan.shaker@gmail.com">Yazan Mahmoud</a>.<br />
         </span>
       </p>
 
