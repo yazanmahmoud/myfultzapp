@@ -23,7 +23,7 @@ const Home = () => {
           <a href="mailto:fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a>
         </address>
        
-        <div style={{ float: 'right', textAlign: 'right' }}>
+        <div className="time-weather">
     <TimeDate />
     <Weather />
   </div>

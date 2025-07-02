@@ -156,13 +156,12 @@ a:hover {
 }
 
 address.header {
-	font:italic 120%/120% Georgia, Times, serif;
+	font:italic 100% Georgia, Times, serif;
 	color: #1b1d00;
-	display: block;
-	position: absolute;
-	left: 185px;
-	top: 30px;
-	width: 250px;
+	position: static;
+	margin: 0;
+    max-width: 300px;
+    line-height: 1.4;
 }
 
 /*HEADER*/
@@ -193,15 +192,30 @@ address.header {
 }
 
 #header {
-	width: 1012px;
-	height: 160px;
-	background: url(images/bgHeader.png) no-repeat;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1em;
+    background: url(images/bgHeader.png) no-repeat;
+    background-size: cover;
+    max-width: 1012px;
+    margin: 0 auto;
+    position: relative;
 }
 
 #logo {
-	position:absolute;
-	left: 18px;
-	float: left;
+	max-width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#header .time-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5em;
+  font-size: 0.9em;
 }
 
 /*CONTENT*/
