@@ -464,3 +464,124 @@ td.medium {
 	width: 15%;
 	padding: 5px;
 }
+
+/* Containers to scale on smaller screens */
+#container,
+#header,
+#content,
+#footer {
+  width: 100%;
+  max-width: 1012px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  body {
+    font-size: 90%;
+  }
+
+  #left,
+  #right {
+    width: 100%;
+    float: none;
+    padding: 1em;
+    margin: 0 auto 2em;
+    background: none;
+  }
+
+  #navTop {
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  #navTop a {
+    float: none;
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  #navFooter {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  #navFooter a {
+    float: none;
+    display: inline-block;
+    margin: 5px 10px;
+  }
+
+  address.header {
+    position: static;
+    text-align: center;
+    margin: 1em auto;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  body {
+    font-size: 85%;
+  }
+
+  h1 {
+    font-size: 160%;
+    background-size: contain;
+  }
+
+  h2 {
+    font-size: 100%;
+  }
+
+  p,
+  td {
+    font-size: 100%;
+  }
+
+  .overlay {
+    display: none; 
+  }
+
+  table.contact {
+    width: 100%;
+    float: none;
+  }
+
+  #map {
+    float: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  a#facebook {
+    float: none;
+    display: block;
+    margin: 1em auto;
+  }
+
+  #copyright {
+    float: none;
+    text-align: center;
+    margin: 1em 0;
+  }
+
+  #navTop,
+  #navFooter {
+    display: block;
+    text-align: center;
+    float: none;
+  }
+
+  #navTop a,
+  #navFooter a {
+    display: inline-block;
+    float: none;
+    margin: 0 5px;
+  }
+}
