@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myfultzapp/static/css/main.f441e155.css",
+    "main.css": "/myfultzapp/static/css/main.452baf27.css",
     "main.js": "/myfultzapp/static/js/main.a605ef2d.js",
     "static/media/gazebo.png": "/myfultzapp/static/media/gazebo.5355580b34ee19765819.png",
     "static/media/bgHeader.png": "/myfultzapp/static/media/bgHeader.76973bac55d973e84c70.png",
@@ -16,11 +16,11 @@
     "static/media/navSackville.png": "/myfultzapp/static/media/navSackville.db45466acb0387cbc8b7.png",
     "static/media/navBrochures.png": "/myfultzapp/static/media/navBrochures.bf6747288bc76fb110b0.png",
     "index.html": "/myfultzapp/index.html",
-    "main.f441e155.css.map": "/myfultzapp/static/css/main.f441e155.css.map",
+    "main.452baf27.css.map": "/myfultzapp/static/css/main.452baf27.css.map",
     "main.a605ef2d.js.map": "/myfultzapp/static/js/main.a605ef2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f441e155.css",
+    "static/css/main.452baf27.css",
     "static/js/main.a605ef2d.js"
   ]
 }
