@@ -465,9 +465,6 @@ td.medium {
 	padding: 5px;
 }
 
-/* ========== RESPONSIVE DESIGN FOR ALL PLATFORMS ========== */
-
-/* Allow containers to scale on smaller screens */
 
 /* Tablets (≤768px) */
 @media (max-width: 768px) {
@@ -537,7 +534,7 @@ td.medium {
   }
 
   .overlay {
-    display: none; /* Hide background image overlays on small screens */
+    display: none; 
   }
 
   table.contact {
@@ -577,3 +574,22 @@ td.medium {
     margin: 0 5px;
   }
 }
+
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #logo {
+    max-width: 80px;
+    margin-bottom: 1em;
+  }
+
+  address.header {
+    max-width: 100%;
+    margin: 1em 0;
+  }
+}
+
