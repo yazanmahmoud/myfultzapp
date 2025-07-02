@@ -156,12 +156,13 @@ a:hover {
 }
 
 address.header {
-	font:italic 100% Georgia, Times, serif;
+	font:italic 120%/120% Georgia, Times, serif;
 	color: #1b1d00;
-	position: static;
-	margin: 0;
-    max-width: 300px;
-    line-height: 1.4;
+	display: block;
+	position: absolute;
+	left: 185px;
+	top: 30px;
+	width: 250px;
 }
 
 /*HEADER*/
@@ -192,30 +193,15 @@ address.header {
 }
 
 #header {
-	display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 1em;
-    background: url(images/bgHeader.png) no-repeat;
-    background-size: cover;
-    max-width: 1012px;
-    margin: 0 auto;
-    position: relative;
+	width: 1012px;
+	height: 160px;
+	background: url(images/bgHeader.png) no-repeat;
 }
 
 #logo {
-	max-width: 120px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-#header .time-weather {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.5em;
-  font-size: 0.9em;
+	position:absolute;
+	left: 18px;
+	float: left;
 }
 
 /*CONTENT*/
@@ -479,19 +465,11 @@ td.medium {
 	padding: 5px;
 }
 
-/* Containers to scale on smaller screens */
-#container,
-#header,
-#content,
-#footer {
-  width: 100%;
-  max-width: 1012px;
-  padding-left: 10px;
-  padding-right: 10px;
-  box-sizing: border-box;
-}
+/* ========== RESPONSIVE DESIGN FOR ALL PLATFORMS ========== */
 
-/* Tablets */
+/* Allow containers to scale on smaller screens */
+
+/* Tablets (≤768px) */
 @media (max-width: 768px) {
   body {
     font-size: 90%;
@@ -538,7 +516,7 @@ td.medium {
   }
 }
 
-/* Phones */
+/* Phones (≤480px) */
 @media (max-width: 480px) {
   body {
     font-size: 85%;
@@ -559,7 +537,7 @@ td.medium {
   }
 
   .overlay {
-    display: none; 
+    display: none; /* Hide background image overlays on small screens */
   }
 
   table.contact {
